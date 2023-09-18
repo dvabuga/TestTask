@@ -6,7 +6,7 @@ namespace TestTask
 {
     internal class Program
     {
-      
+        const string ExpectedFileFormat = ".txt";
         static void Main(string[] args)
         {
             ExecuteApplicationInFileOrInterractiveMode(args);
@@ -44,7 +44,7 @@ namespace TestTask
         static bool FileExistsAndItIsTxtFile(string pathToFile)
         { 
           var bo = File.Exists(pathToFile);
-          var ext = Path.GetExtension(pathToFile) == ".txt";
+          var ext = Path.GetExtension(pathToFile) == ExpectedFileFormat;
           return true;
         }
     }

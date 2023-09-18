@@ -39,6 +39,9 @@ namespace EquationTransformationLibrary.Core.Model
 
             input = DetermiceTheCoefficient(input);
 
+
+            //TODO: This is part of logic that is reposible to extract variables like x^2. 
+            //This need to be exrected to separate method
             var variable = new EquationVariable();
             while (index < input.Length)
             {

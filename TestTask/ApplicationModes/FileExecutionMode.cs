@@ -19,6 +19,7 @@ namespace TestTaskConsole.ApplicationModes
         public void Execute()
         {
             Console.WriteLine(ConsoleApplicationMessages.FileProcessingHasStartedMessage);
+            //TODO:Move all magic strins to appropriate places
             string docPath = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments), "Equations.out");
             Console.WriteLine($"Result file will be located in {docPath}");
 
