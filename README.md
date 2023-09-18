@@ -5,3 +5,8 @@ x^2 + 3.5xy + y = y^2 - xy + y
 
 -solution does not supports expressions with brackets like (a-b)
 -solution does not support fractions like a/b
+
+
+Code was not covered by unit tests because of lack of the time.
+If it is necessary to extend the implementation - I am ready.
+
